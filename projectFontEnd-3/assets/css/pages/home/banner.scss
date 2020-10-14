@@ -1,0 +1,61 @@
+.banner {
+    position: relative;
+    .owl-carousel .owl-nav .owl-prev {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        background-color: #fff;
+        padding: 18px;
+        width: 45px;
+        height: 45px;
+        outline: none;
+    }
+    .owl-carousel .owl-nav .owl-next {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        background-color: #fff;
+        padding: 18px;
+        width: 45px;
+        height: 45px;
+        outline: none;
+    }
+    .owl-carousel .owl-dots {
+        .owl-dot span:hover,
+        .owl-dot.active span {
+            background: $white;
+        }
+        justify-content: center;
+        position: absolute;
+        top: 90%;
+        button {
+            outline: none;
+        }
+        right: 45%;
+        z-index: 99;
+    }
+    .banner__category {
+        position: absolute;
+        z-index: 2;
+        background-color: #fff;
+        left: 70px;
+        li {
+            position: relative;
+            width: 29rem;
+            border: 1px solid $grey;
+            ;
+            a {
+                color: $black;
+                display: inline-block;
+                padding: 15px;
+                font-size: $fontSize;
+                span {
+                    position: absolute;
+                    font-size: $fontSize;
+                    right: 17px;
+                }
+            }
+            border-bottom: 1px solid $grey;
+        }
+    }
+}
